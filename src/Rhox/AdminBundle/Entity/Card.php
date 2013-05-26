@@ -124,7 +124,7 @@ class Card
     /**
      * @var float
      *
-     * @ORM\Column(name="rating", type="float")
+     * @ORM\Column(name="rating", type="decimal", precision=10, scale=2)
      */
     private $rating;
 

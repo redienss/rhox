@@ -1,8 +1,6 @@
 -----------------------------------------
 Rhox DB
 -----------------------------------------
- - wgrać dane do gatherer_db
- - wygenerować encje dla rhox_db
  - napisać migrację (updater) gatherer -> rhox
  - przetestować update-owanie dla nowych edycji (migracja nie może skasować danych z bazy tylko zrobić update)
  - po migracji wyciągnąć jakieś karty z bazy i wyrzucić na ekran :D
@@ -20,39 +18,7 @@ Cenniki
 
 
 -----------------------------------------
-Cards
+Migracja
 -----------------------------------------
-id
-name
-set
-type
-rarity
-mana_cost
-converted_mana_cost
-power
-toughness
-loyalty
-ability
-flavor
-variation
-artist
-number
-rating
-ruling
-color
-generated_mana
-pricing_low
-pricing_mid
-pricing_high
-back_id
-legality_block
-legality_standard
-legality_extended
-legality_modern
-legality_legacy
-legality_vintage
-legality_highlander
-legality_french_Commander
-legality_commander
-legality_peasant
-legality_pauper
+
+rhox.local/app_dev.php/migrate
