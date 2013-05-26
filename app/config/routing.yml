@@ -1,0 +1,3 @@
+rhox_admin:
+    resource: "@RhoxAdminBundle/Resources/config/routing.yml"
+    prefix:   /

@@ -1,0 +1,3 @@
+rhox_admin_homepage:
+    pattern:  /
+    defaults: { _controller: RhoxAdminBundle:Default:index }

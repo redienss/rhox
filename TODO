@@ -1,0 +1,44 @@
+-----------------------------------------
+Symfony
+-----------------------------------------
+ - wgrać rhoxa na githuba
+
+
+-----------------------------------------
+MTG_DB
+-----------------------------------------
+ - skrypt ściągający ceny z mtg.net ładujący do DB
+ - ściągnąć ceny z planeswalkera do DB
+ - ściągnąć ceny z flamberga do DB
+ - ściągnąć ceny z dwarfa do DB
+ - wyliczyć AVG ze wszystkich cenników
+ - pozmieniać daty na pole "DATE"
+ - skrypt migrujący dane gatherer extractor > DB
+
+
+prices_mtgnet
+
+    1: [RTR] Steam Vents               20.00
+    2: [RTR] Izzet Guildgate           21.00
+    3: [RTR] Island (1)                25.00
+    4: [RTR] Mountain (1)              20.00
+    5: [RTR] Hypersonic Dragon         -
+    6: [RTR] Guttersnipe               20.00
+    7: [AVR] Tandem Lookout            24.00
+    8: [M13] Archaeomancer             20.00
+    9: [RTR] Goblin Electromancer      20.00
+   10: [AVR] Reforge the Soul          20.00
+   11: [RTR] Counterflux               -
+   12: [RTR] Mizzium Mortars           20.00
+   13: [ISD] Traitorous Blood          20.00
+   14: [M12] Incinerate                20.00
+
+.
+.
+.
+
+28000: [M13] Searing Spear             24.00
+28000: [RTR] Cancel                    -
+28000: [AVR] Ghostly Flicker           25.00
+
+Updating DB done!
